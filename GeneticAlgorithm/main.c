@@ -55,7 +55,7 @@ int main(int argc, char** argv)
 	clock_t clk;
 	double totalTime = 0;
 
-	//Create the population with a size of 100, specify the gene length and the required functions
+	//Create the population with a size of 500, specify the gene length and the required functions
 	Population* population = PopulationCreate(500, targetStringLength, Mutate, EvaluateFitness, GetInitialDNAValue);
 
 	while(1)
