@@ -12,6 +12,7 @@ int targetStringLength = sizeof(targetString) / sizeof(targetString[0]) - 1;
 
 DNA_DATA_TYPE Mutate(DNA_DATA_TYPE value)
 {
+	//Mutation rate 1%
 	if ((float)rand() / (float)RAND_MAX < 0.01f)
 	{
 		//Choose a random character from the validCharacters array
